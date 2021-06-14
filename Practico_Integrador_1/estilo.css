@@ -1,0 +1,182 @@
+
+.backgroundHeader{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    background-image:url("img/header.jpg");
+    background-size: cover; 
+    padding-left: 50px;
+}
+.header{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 450px;
+    /* padding: 40px; */
+
+}
+    
+nav{
+    width: 30%;
+    display: flex;
+    justify-content: left;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+.caja1{
+    width: 25%;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 150px;
+    padding: 50px;
+}
+
+.titulocentral{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sec1{
+    height: 400px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+     
+}
+
+.caja1_1{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+.sec2{
+    height:500px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.caja2_2{
+    height: 100%;
+    width: 31%;
+}
+
+.caja2_2 img{
+    width: 100%;
+}
+
+span{
+    color: rgb(90, 136, 22);
+    
+}
+
+.iconos{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.boton_naranja{
+    width: 80%;
+    height: 42px;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sec3{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    /* padding-right: 10%; modificar valor */
+    font-family: 'Roboto', sans-serif;
+}
+
+.boton_verde{
+    width: 120PX;
+    height: 42px;
+    background-color:rgb(90, 136, 22);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.sec4{
+    width: 100%;
+    height: 250px;
+    background-image:url("img/encuentra.jpg");
+    background-size: cover;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-top:20px;
+}
+
+.sec4 p{
+    margin-left: 25px;
+}
+
+.titulocentral2{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+
+    margin-left: 25px;
+
+}
+
+.boton_naranja2{
+    width: 20%;
+    height: 42px;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 80px;
+    margin-left: 25px;
+
+}
+
+footer{
+    /* width: 100%; */
+    height: 42px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;   
+}
+
+.footer_design{
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 1%;  
+}
+
+.footer_h3{
+    width: 25%;
+    margin-left: 150px;
+}
+
