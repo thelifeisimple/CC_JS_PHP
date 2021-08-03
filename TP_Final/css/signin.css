@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,900);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    padding: 550px;
+    padding-top: 50px;
+    padding-bottom: 0;
+    background: #fff;
+}
+
+h1{
+    margin: 25px;
+    color:white;
+}
+.login{
+
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    margin-top: 3%;
+    padding: 8%;
+    border-radius: 2%;
+
+}
+
+.form-floating{
+    padding-top: 30px;
+}
+
+.form-floating>label{
+    font-size: 16px;
+    margin-top: -15px;
+    color: lightcyan;
+}
+
+.form-control{
+    padding:20px !important;
+}
+.checkbox{
+    padding-top: 5px;
+}
+
+a{
+    color:white;
+}
