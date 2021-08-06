@@ -109,6 +109,7 @@
                 },
                 function(){
                 alertify.error('Cancel');
+                window.location.href ='main.php';
                 });
             }
         });
