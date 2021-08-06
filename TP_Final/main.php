@@ -60,7 +60,7 @@
                         <a class="dropdown-item" href="edit_view.php">Edita tu cuenta</a>
                         <a class="dropdown-item" href="delete_view.php">Eliminar tu cuenta</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Cerrar sesión</a>
+                        <a class="dropdown-item" href="index.php">Cerrar sesión</a>
                     </div>
                 </div>
                 
