@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php
+echo (isset($_SESSION['usuario']))? session_destroy():'';
+?>
 <html lang="en">
 <!-- <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/prompt.js"></script>
 <script src="chrome-extension://ljdobmomdgdljniojadhoplhkpialdid/page/runScript.js"></script> -->
